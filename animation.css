@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    animation: fundo 4s infinite alternate;
+}
+
+@keyframes fundo{
+    0%  {background: rgb(19, 221, 228)}
+    50% {background: rgb(3, 130, 172)}
+    100% {background: rgb(7, 79, 186)}
+}
+
+#Skills img{
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+  }
+
+#Skills img:hover {
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+  }
+
+#Instagram:hover{
+    background: linear-gradient(0,rgb(156, 0, 252),rgb(80, 4, 95));
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
+#LinkedIn:hover{
+    background: linear-gradient(0,rgb(0, 84, 252),rgb(4, 15, 95));
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
+#GitHub:hover{
+    background: linear-gradient(0,rgb(49, 49, 49),rgb(7, 7, 7));
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+}
+
+#Curriculo:hover{
+    background: linear-gradient(0,rgb(184, 130, 4),rgb(199, 3, 3));
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+}

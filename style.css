@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+
+.photography{
+    margin-top: 70px;
+    border-radius: 50%;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+.photography:hover {
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+  }
+
+.foto-primary{
+    display: flex;
+    justify-content: center;
+}
+
+.biografia{
+    margin-top: 50px;
+    font-family: 'Anonymous Pro';
+}
+
+h1{
+    letter-spacing: 2px;
+    margin-top: -12px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+
+p{
+    margin-top: 6px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.habilidades{
+    font-family: 'Anonymous Pro';
+    margin-top: 50px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 255, 0);
+    font-weight: bold;
+}
+
+#Skills{
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.icon{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+img{
+    max-width: 100%;
+}
+
+footer{
+    margin-top: 50px;
+}
